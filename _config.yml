@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "
 locale                   : "ko-KR"
 title                    : "Blogging James"
 title_separator          : "-"
-subtitle                 : "Have a nice day! :)"
+subtitle                 : "**일상**과 **생각**"
 name                     : "Younghwan Cho"
 description              : "Daily Idea"
 url                      : "https://younghwanjo.github.io"
@@ -103,7 +103,7 @@ analytics:
 author:
   name             : "Younghwan Cho"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "**일상**과 **생각**"
+  bio              : "Have a nice day! :)"
   location         : "Republic of Korea"
   email            :
   links:
