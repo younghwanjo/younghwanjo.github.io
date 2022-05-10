@@ -3,8 +3,6 @@ layout: single
 title: "아라"
 categories: Daily
 tags: Ara
-toc: true
-author_profile: false
 ---
 
 ### 소중한 일상들을 기록하기 위한 블로깅
