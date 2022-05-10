@@ -10,7 +10,7 @@ toc: true
 
 첫 포스팅은 아라 사진으로!
 
-<img src="../images/2022-05-08-first/ara.jpeg" alt="ara" style="zoom:25%;" />
+![ara](../images/2022-05-08-첫-포스팅/ara.jpeg)
 
 겉모습만 보면 어린 것 같은데, 어느덧 같이 지낸지 14년이 된 우리 집 강아지.
 
