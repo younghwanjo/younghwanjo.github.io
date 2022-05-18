@@ -1,8 +1,8 @@
 <nav class="nav__list">
-  <input id="ac-toc" name="accordion-toc" type="checkbox" />
-  <label for="ac-toc">{{ site.data.ui-text[site.locale].menu_label }}</label>
-  <ul class="nav__items" id="category_tag_menu">
-      <li>
+    <input id="ac-toc" name="accordion-toc" type="checkbox" />
+    <label for="ac-toc">{{ site.data.ui-text[site.locale].menu_label }}</label>
+    <ul class="nav__items" id="category_tag_menu">
+        <li>
         <span class="nav__sub-title">Blog</span>
             <ul>
                 {% for category in site.categories %}
@@ -18,6 +18,21 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-      </li>
+        <span class="nav__sub-title">Study</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Finance" %}
+                        <li><a href="/categories/Finance/" class="">Finance ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Data_Science" %}
+                        <li><a href="/categories/Data_Science/" class="">Data_Science ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        </li>
   </ul>
 </nav>
