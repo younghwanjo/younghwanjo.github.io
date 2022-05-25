@@ -4,6 +4,7 @@ permalink: /categories/Finance/
 title: "Finance"
 author_profile: true
 sidebar_main: true
+classes: wide
 ---
 
 {% assign posts = site.categories.Finance %}

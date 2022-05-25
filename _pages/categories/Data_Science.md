@@ -4,6 +4,7 @@ permalink: /categories/Data_Science/
 title: "Data_Science"
 author_profile: true
 sidebar_main: true
+classes: wide
 ---
 
 {% assign posts = site.categories.Data_Science %}
